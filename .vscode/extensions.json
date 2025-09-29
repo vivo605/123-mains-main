@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "jkearins.action-buttons-ext",
+    "ms-vsliveshare.vsliveshare"
+  ]
+}

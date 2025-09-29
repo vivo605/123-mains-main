@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": [
+      "ESNext"
+    ],
+    
+    "outDir": "build",
+    "declaration": true,
+
+    "esModuleInterop": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false, // npm:reflect-metadata
+    
+    "strict": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src"
+  ]
+}
