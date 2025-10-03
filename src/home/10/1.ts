@@ -57,11 +57,14 @@ class CustomArray<T extends any> {
 } 
 
 
-const r = [1,2,3].map(n => String(n + 1))
+// const r = [1,2,3].map(n => String(n + 1))
 // Array<number>.map<string>(callback: (value: number, index: number) => string): string[]
-console.log(r)
+// console.log(r)
 
-// string | number
+let words: string[] = ["apple", "banana", "cherry", "date"]
+let filteredWords: string[] = words.filter((word) => word.length > 5)
+
+console.log(filteredWords)
 
 // const array = new CustomArray(1, 2, 3)
 
