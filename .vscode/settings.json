@@ -1,14 +1,10 @@
 {
   "editor.tabSize": 2,
-  "editor.formatOnSave": false,
+  // "editor.cursorStyle": "block", // or "block", "underline", etc.
+  // "editor.cursorWidth": 6, // Adjust as desired
   "actionButtons": {
     "loadNpmCommands": false,
     "commands": [
-      {
-        "tooltip": "build",
-        "name": "$(package)",
-        "command": "npm --silent build"
-      },
       {
         "tooltip": "run",
         "name": "$(run)",

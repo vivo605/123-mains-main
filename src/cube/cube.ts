@@ -13,7 +13,7 @@ let idx: number
 const cubeWidth = 20
 const width = 160
 const height = 44
-const K1 = 40
+const K1 = 30
 
 let zBuffer = new Array(width * height).fill(0)  
 let buffer = new Array(width * height).fill(' '.charCodeAt(0))
